@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED7399C14D8AD6F193AB5EB /* Pods_wespy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216422752CB84A484A0B125F /* Pods_wespy.framework */; };
+		24D1F825180BED5400FA653A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1F824180BED5400FA653A /* main.m */; };
+		24D1F829180BED5400FA653A /* WPAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 24D1F828180BED5400FA653A /* WPAppDelegate.mm */; };
+		24D1F83E180BED5400FA653A /* wespyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1F83D180BED5400FA653A /* wespyTests.m */; };
+		C32CA89A230A976200CAAC1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6260ED31CFDAB6D0098DC57 /* Images.xcassets */; };
+		C34BD1AF242322E6007D0E87 /* WPFlutterRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BD1A2242322E6007D0E87 /* WPFlutterRouter.m */; };
+		C34BD1B2242322E6007D0E87 /* WPFlutterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BD1AC242322E6007D0E87 /* WPFlutterManager.m */; };
+		C36490952429FE1E002BE8F5 /* WPFlutterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36490942429FE1E002BE8F5 /* WPFlutterBaseViewController.m */; };
+		C3F56AA3244865D600D10C6C /* WPTestHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F56AA1244865D600D10C6C /* WPTestHomeViewController.m */; };
+		C3F56AA4244865D600D10C6C /* WPTestHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3F56AA2244865D600D10C6C /* WPTestHomeViewController.xib */; };
+		CA0EA84021212E0A003098FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0EA83F21212E0A003098FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D1F835180BED5400FA653A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D1F80D180BED5400FA653A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D1F814180BED5400FA653A;
+			remoteInfo = wespy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		289CDE202329E40900479DDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		216422752CB84A484A0B125F /* Pods_wespy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wespy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1F815180BED5400FA653A /* flutterBoostDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterBoostDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1F820180BED5400FA653A /* wespy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wespy-Info.plist"; sourceTree = "<group>"; };
+		24D1F824180BED5400FA653A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24D1F827180BED5400FA653A /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		24D1F828180BED5400FA653A /* WPAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WPAppDelegate.mm; sourceTree = "<group>"; };
+		24D1F830180BED5400FA653A /* wespyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wespyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1F839180BED5400FA653A /* wespyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wespyTests-Info.plist"; sourceTree = "<group>"; };
+		24D1F83B180BED5400FA653A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24D1F83D180BED5400FA653A /* wespyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wespyTests.m; sourceTree = "<group>"; };
+		24F20BDF1823D2BB003B1AAC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		34A8893C8A93FD0ABFBE5E28 /* Pods-wespy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wespy/Pods-wespy.debug.xcconfig"; sourceTree = "<group>"; };
+		56CFBEBD7FDF1916020A7353 /* Pods-wespy.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespy.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-wespy/Pods-wespy.adhoc.xcconfig"; sourceTree = "<group>"; };
+		5F104BF943D468F7CBCD89EA /* Pods-wespy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespy.release.xcconfig"; path = "Pods/Target Support Files/Pods-wespy/Pods-wespy.release.xcconfig"; sourceTree = "<group>"; };
+		790717AD236196FF004464E1 /* WPAllFamilyDynamicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAllFamilyDynamicController.m; sourceTree = "<group>"; };
+		790717AE236196FF004464E1 /* WPAllFamilyDynamicController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WPAllFamilyDynamicController.xib; sourceTree = "<group>"; };
+		790717B22361973D004464E1 /* WPMyFamilyDynamicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPMyFamilyDynamicController.m; sourceTree = "<group>"; };
+		790717B32361973D004464E1 /* WPMyFamilyDynamicController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WPMyFamilyDynamicController.xib; sourceTree = "<group>"; };
+		790717BE2361A006004464E1 /* WPMyFamilyDynamicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPMyFamilyDynamicCell.m; sourceTree = "<group>"; };
+		790717BF2361A006004464E1 /* WPMyFamilyDynamicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WPMyFamilyDynamicCell.xib; sourceTree = "<group>"; };
+		790717C32361A038004464E1 /* WPAllFamilyDynamicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAllFamilyDynamicCell.m; sourceTree = "<group>"; };
+		790717C42361A038004464E1 /* WPAllFamilyDynamicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WPAllFamilyDynamicCell.xib; sourceTree = "<group>"; };
+		790717C82361A547004464E1 /* WPFamilyDynamicHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFamilyDynamicHeader.m; sourceTree = "<group>"; };
+		9A878202469BF6499252D4D0 /* Pods-wespy.ad hoc distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespy.ad hoc distribution.xcconfig"; path = "Pods/Target Support Files/Pods-wespy/Pods-wespy.ad hoc distribution.xcconfig"; sourceTree = "<group>"; };
+		A11FC42DB7BC3D9BB8E97F80 /* libPods-wespy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wespy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34BD1A1242322E6007D0E87 /* WPFlutterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFlutterManager.h; sourceTree = "<group>"; };
+		C34BD1A2242322E6007D0E87 /* WPFlutterRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFlutterRouter.m; sourceTree = "<group>"; };
+		C34BD1AB242322E6007D0E87 /* WPFlutterRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFlutterRouter.h; sourceTree = "<group>"; };
+		C34BD1AC242322E6007D0E87 /* WPFlutterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFlutterManager.m; sourceTree = "<group>"; };
+		C36490932429FE1E002BE8F5 /* WPFlutterBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPFlutterBaseViewController.h; sourceTree = "<group>"; };
+		C36490942429FE1E002BE8F5 /* WPFlutterBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFlutterBaseViewController.m; sourceTree = "<group>"; };
+		C36F96ED236FCCA0004403FE /* WPFamilyConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFamilyConfig.m; sourceTree = "<group>"; };
+		C3F56AA0244865D600D10C6C /* WPTestHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTestHomeViewController.h; sourceTree = "<group>"; };
+		C3F56AA1244865D600D10C6C /* WPTestHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTestHomeViewController.m; sourceTree = "<group>"; };
+		C3F56AA2244865D600D10C6C /* WPTestHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WPTestHomeViewController.xib; sourceTree = "<group>"; };
+		CA0EA83F21212E0A003098FC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6260ED31CFDAB6D0098DC57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D1F812180BED5400FA653A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED7399C14D8AD6F193AB5EB /* Pods_wespy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1F82D180BED5400FA653A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D1F80C180BED5400FA653A = {
+			isa = PBXGroup;
+			children = (
+				24D1F816180BED5400FA653A /* Products */,
+				24D1F81E180BED5400FA653A /* wespy */,
+				24D1F837180BED5400FA653A /* wespyTests */,
+				8DB0B053E14F18B4E5BFC6AB /* Pods */,
+				2832D03F2361A336002EC4E7 /* Recovered References */,
+				9DA42CA91644C9ABD94CA9D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24D1F816180BED5400FA653A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D1F815180BED5400FA653A /* flutterBoostDemo.app */,
+				24D1F830180BED5400FA653A /* wespyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D1F81E180BED5400FA653A /* wespy */ = {
+			isa = PBXGroup;
+			children = (
+				C34BD1A0242322E6007D0E87 /* Flutter */,
+				24D1F81F180BED5400FA653A /* Supporting Files */,
+				24D1F827180BED5400FA653A /* WPAppDelegate.h */,
+				24D1F828180BED5400FA653A /* WPAppDelegate.mm */,
+				F6260ED31CFDAB6D0098DC57 /* Images.xcassets */,
+			);
+			path = wespy;
+			sourceTree = "<group>";
+		};
+		24D1F81F180BED5400FA653A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0EA83F21212E0A003098FC /* LaunchScreen.storyboard */,
+				24D1F820180BED5400FA653A /* wespy-Info.plist */,
+				24D1F824180BED5400FA653A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24D1F837180BED5400FA653A /* wespyTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D1F83D180BED5400FA653A /* wespyTests.m */,
+				24D1F838180BED5400FA653A /* Supporting Files */,
+			);
+			path = wespyTests;
+			sourceTree = "<group>";
+		};
+		24D1F838180BED5400FA653A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D1F839180BED5400FA653A /* wespyTests-Info.plist */,
+				24D1F83A180BED5400FA653A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2832D03F2361A336002EC4E7 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				790717B22361973D004464E1 /* WPMyFamilyDynamicController.m */,
+				790717AD236196FF004464E1 /* WPAllFamilyDynamicController.m */,
+				790717B32361973D004464E1 /* WPMyFamilyDynamicController.xib */,
+				790717AE236196FF004464E1 /* WPAllFamilyDynamicController.xib */,
+				790717BE2361A006004464E1 /* WPMyFamilyDynamicCell.m */,
+				790717C82361A547004464E1 /* WPFamilyDynamicHeader.m */,
+				790717C32361A038004464E1 /* WPAllFamilyDynamicCell.m */,
+				790717C42361A038004464E1 /* WPAllFamilyDynamicCell.xib */,
+				790717BF2361A006004464E1 /* WPMyFamilyDynamicCell.xib */,
+				C36F96ED236FCCA0004403FE /* WPFamilyConfig.m */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		8DB0B053E14F18B4E5BFC6AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A8893C8A93FD0ABFBE5E28 /* Pods-wespy.debug.xcconfig */,
+				5F104BF943D468F7CBCD89EA /* Pods-wespy.release.xcconfig */,
+				9A878202469BF6499252D4D0 /* Pods-wespy.ad hoc distribution.xcconfig */,
+				56CFBEBD7FDF1916020A7353 /* Pods-wespy.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DA42CA91644C9ABD94CA9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A11FC42DB7BC3D9BB8E97F80 /* libPods-wespy.a */,
+				216422752CB84A484A0B125F /* Pods_wespy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34BD1A0242322E6007D0E87 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				C34BD1A1242322E6007D0E87 /* WPFlutterManager.h */,
+				C34BD1AC242322E6007D0E87 /* WPFlutterManager.m */,
+				C34BD1AB242322E6007D0E87 /* WPFlutterRouter.h */,
+				C34BD1A2242322E6007D0E87 /* WPFlutterRouter.m */,
+				C36490932429FE1E002BE8F5 /* WPFlutterBaseViewController.h */,
+				C36490942429FE1E002BE8F5 /* WPFlutterBaseViewController.m */,
+				C3F56AA0244865D600D10C6C /* WPTestHomeViewController.h */,
+				C3F56AA1244865D600D10C6C /* WPTestHomeViewController.m */,
+				C3F56AA2244865D600D10C6C /* WPTestHomeViewController.xib */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D1F814180BED5400FA653A /* wespy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1F841180BED5400FA653A /* Build configuration list for PBXNativeTarget "wespy" */;
+			buildPhases = (
+				133C7E0315C8535B5E57F70C /* [CP] Check Pods Manifest.lock */,
+				3567C7F9E722FFDA075A6F4A /* [CP-User] Run Flutter Build Script */,
+				24D1F811180BED5400FA653A /* Sources */,
+				24D1F812180BED5400FA653A /* Frameworks */,
+				24D1F813180BED5400FA653A /* Resources */,
+				289CDE202329E40900479DDB /* Embed Frameworks */,
+				FA427C8EE1237F0DD590778E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wespy;
+			productName = wespy;
+			productReference = 24D1F815180BED5400FA653A /* flutterBoostDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D1F82F180BED5400FA653A /* wespyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1F844180BED5400FA653A /* Build configuration list for PBXNativeTarget "wespyTests" */;
+			buildPhases = (
+				24D1F82C180BED5400FA653A /* Sources */,
+				24D1F82D180BED5400FA653A /* Frameworks */,
+				24D1F82E180BED5400FA653A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D1F836180BED5400FA653A /* PBXTargetDependency */,
+			);
+			name = wespyTests;
+			productName = wespyTests;
+			productReference = 24D1F830180BED5400FA653A /* wespyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D1F80D180BED5400FA653A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wepie;
+				TargetAttributes = {
+					24D1F814180BED5400FA653A = {
+						DevelopmentTeam = 37R4W6NKY6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 24D1F810180BED5400FA653A /* Build configuration list for PBXProject "wespy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				de,
+				es,
+				ja,
+				ko,
+				pl,
+				"zh-Hant",
+				Base,
+			);
+			mainGroup = 24D1F80C180BED5400FA653A;
+			productRefGroup = 24D1F816180BED5400FA653A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D1F814180BED5400FA653A /* wespy */,
+				24D1F82F180BED5400FA653A /* wespyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D1F813180BED5400FA653A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F56AA4244865D600D10C6C /* WPTestHomeViewController.xib in Resources */,
+				CA0EA84021212E0A003098FC /* LaunchScreen.storyboard in Resources */,
+				C32CA89A230A976200CAAC1B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1F82E180BED5400FA653A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133C7E0315C8535B5E57F70C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wespy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3567C7F9E722FFDA075A6F4A /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/./libflutter/.metadata",
+				"${SRCROOT}/libflutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/libflutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/libflutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/libflutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		FA427C8EE1237F0DD590778E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wespy/Pods-wespy-frameworks.sh",
+				"${PODS_ROOT}/../libflutter/.ios/Flutter/engine/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework",
+				"${PODS_ROOT}/../libflutter/.ios/Flutter/App.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wespy/Pods-wespy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D1F811180BED5400FA653A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1F825180BED5400FA653A /* main.m in Sources */,
+				24D1F829180BED5400FA653A /* WPAppDelegate.mm in Sources */,
+				C34BD1B2242322E6007D0E87 /* WPFlutterManager.m in Sources */,
+				C3F56AA3244865D600D10C6C /* WPTestHomeViewController.m in Sources */,
+				C36490952429FE1E002BE8F5 /* WPFlutterBaseViewController.m in Sources */,
+				C34BD1AF242322E6007D0E87 /* WPFlutterRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1F82C180BED5400FA653A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1F83E180BED5400FA653A /* wespyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D1F836180BED5400FA653A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D1F814180BED5400FA653A /* wespy */;
+			targetProxy = 24D1F835180BED5400FA653A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24D1F83A180BED5400FA653A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D1F83B180BED5400FA653A /* en */,
+				24F20BDF1823D2BB003B1AAC /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D1F83F180BED5400FA653A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 581;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IS_LOAD_FLUTTER_FROM_FRAMEWORKS = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PROVISIONING_PROFILE = "785b3715-1058-494f-8a45-6fd9b2057fb3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		24D1F842180BED5400FA653A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A8893C8A93FD0ABFBE5E28 /* Pods-wespy.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 37R4W6NKY6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SRCROOT}",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "wespy/wespy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_GENERATE_MAP_FILE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 6.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jimmypeng.testt;
+				PRODUCT_NAME = flutterBoostDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24D1F845180BED5400FA653A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wespyTests/wespyTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.wepie.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D1F810180BED5400FA653A /* Build configuration list for PBXProject "wespy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1F83F180BED5400FA653A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24D1F841180BED5400FA653A /* Build configuration list for PBXNativeTarget "wespy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1F842180BED5400FA653A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24D1F844180BED5400FA653A /* Build configuration list for PBXNativeTarget "wespyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1F845180BED5400FA653A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D1F80D180BED5400FA653A /* Project object */;
+}
